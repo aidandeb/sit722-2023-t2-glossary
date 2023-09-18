@@ -110,6 +110,6 @@ window.onload = function() {
         idCell.innerHTML = i + 1;
         termCell.innerHTML = terms[i];
         descriptionCell.innerHTML = descriptions[i];
-        referencesCell.innerHTML = '<a href="' + references[i];
+        referencesCell.innerHTML = references[i];
     }
 };
