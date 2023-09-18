@@ -1,6 +1,6 @@
-## DevOps Glossary Update Process
+# DevOps Glossary Update Process #
 
-Update 1 - for task 3.2P
+## Update 1 - for task 3.2P ##
 
 ### Process Steps:
 
@@ -9,3 +9,10 @@ Update 1 - for task 3.2P
 3. After making changes, commit your updates to the repository.
 4. Push the changes to the main branch.
 
+
+#### Update 2 - for task 5.2P ####
+
+1. Continue to edit the glossary in the `script.js` file by adding 10 glossary items from week 4-5 as required.
+2. Ensure that each glossary item includes a brief description and a reference link.
+3. After making changes, commit your updates to the repository.
+4. Push the changes to the main branch.
