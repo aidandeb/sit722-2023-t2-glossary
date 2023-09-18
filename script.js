@@ -21,7 +21,17 @@ window.onload = function() {
         "Performance Testing",
         "Behaviour-Driven Design (BDD)",
         "Infrastructure Provisioning",
-        "Everything-as-Code (EaC)"
+        "Everything-as-Code (EaC)",
+        "Orchestration",
+        "Continuous Monitoring",
+        "Immutable Infrastructure",
+        "Serverless Computing",
+        "Kubernetes",
+        "Version Control",
+        "Dependency Injection",
+        "CICD Pipeline (Continuous Integration and Continuous Delivery Pipeline)",
+        "Scalability",
+        "Blue-Green Deployment"
     ];
 
     var descriptions = [
@@ -35,16 +45,26 @@ window.onload = function() {
         "Agile is an iterative and collaborative software development approach that emphasises flexibility, customer collaboration, and adaptability to change.",
         "Configuration Management involves managing and maintaining the configuration settings and parameters of software systems and infrastructure components.",
         "Cloud Computing utilises remote servers and virtualization technologies to store, manage, and process data. It offers on-demand access to computing resources.",
-        "Configuration Drift refers to the unintentional and gradual deviation of a system's configuration from its intended state, potentially leading to security and performance issues.",
-        "Change Control is a systematic process for managing changes to a system, ensuring that they are planned, tested, and approved to minimize risks and disruptions.",
-        "Acceptance Testing is a phase of software testing where a system is evaluated to determine whether it meets specified requirements and is ready for deployment.",
-        "Continuous Feedback is the practice of providing ongoing feedback to improve performance and collaboration, particularly between managers and employees.",
-        "Incident Management involves processes for identifying, responding to, and resolving incidents in an organization's IT systems and services.",
-        "Quality Analysis focuses on evaluating and improving the quality of software through systematic testing, analysis, and optimization.",
-        "Performance Testing is a non-functional testing process that assesses how a system performs under a given workload to identify bottlenecks and ensure optimal performance.",
-        "Behaviour-Driven Design (BDD) is an approach to software development that emphasizes collaboration among developers, testers, and domain experts to define and test behavior.",
-        "Infrastructure Provisioning is the process of defining and deploying infrastructure resources, including servers, storage, network, and more, using automated methods.",
-        "Everything-as-Code (EaC) is a practice that treats all aspects of software development, including infrastructure and configurations, as code that can be versioned and automated."
+        "Configuration Drift occurs when the configuration of a system or environment deviates from its intended state, potentially leading to issues or vulnerabilities.",
+        "Change Control is a process that manages and tracks changes to a system, ensuring that modifications are planned, documented, and tested to minimise risks.",
+        "Acceptance Testing is a phase of software testing where the software's functionality is evaluated against predefined criteria to determine if it meets the requirements.",
+        "Continuous Feedback is the practice of providing ongoing, timely feedback to individuals or teams to improve performance and achieve goals.",
+        "Incident Management involves responding to and resolving unplanned disruptions or issues in IT services to minimise their impact on operations.",
+        "Quality Analysis is the process of evaluating the quality of software or products to identify defects, areas for improvement, and ensure adherence to standards.",
+        "Performance Testing is a non-functional testing approach that evaluates how a system performs under a given workload to ensure optimal performance.",
+        "Behaviour-Driven Design (BDD) is a way for teams to define, develop, and test the desired behavior of software through collaborative scenarios and the flow of value.",
+        "Infrastructure Provisioning is the process of setting up and configuring hardware, servers, cloud resources, edge devices, and more for application deployment.",
+        "Everything-as-Code (EaC) is an approach that treats infrastructure, configurations, and processes as code, enabling automation and version control of all aspects of IT operations.",
+        "Orchestration refers to the automated coordination and management of multiple tasks, services, or containers in a defined sequence to achieve a specific workflow or business process.",
+        "Continuous Monitoring is the practice of real-time or periodic tracking and assessment of applications, systems, or networks to identify issues, security vulnerabilities, and performance bottlenecks.",
+        "Immutable Infrastructure is an approach where infrastructure components, such as servers or containers, are never modified after their initial deployment. Instead, updates are made by creating new, complete instances.",
+        "Serverless Computing is a cloud computing model where developers can execute code without provisioning or managing servers. It abstracts server management tasks and allows developers to focus on code.",
+        "Kubernetes, often abbreviated as K8s, is an open-source container orchestration platform for automating the deployment, scaling, and management of containerized applications.",
+        "Version Control is the practice of tracking and managing changes to source code, documents, or any set of files. It helps developers collaborate, track history, and maintain code integrity.",
+        "Dependency Injection is a design pattern in which components receive their dependencies from an external source rather than creating them. It enhances code modularity and testability.",
+        "CICD Pipeline (Continuous Integration and Continuous Delivery Pipeline) is an automated workflow that facilitates the building, testing, and deployment of software changes. It ensures a reliable and efficient delivery process.",
+        "Scalability is the ability of a system or application to handle an increasing amount of workload or users by adding resources, such as servers or containers, without compromising performance.",
+        "Blue-Green Deployment is a deployment strategy where two identical environments (blue and green) are maintained. New versions of software are deployed to one environment while the other remains stable, enabling seamless rollbacks if issues arise."
     ];
 
     var references = [
@@ -52,42 +72,44 @@ window.onload = function() {
         "https://aws.amazon.com/devops/continuous-integration/",
         "https://www.thoughtworks.com/insights/blog/case-continuous-delivery",
         "https://powershellmagazine.com/2016/01/05/devops-infrastructure-as-code-and-powershell-dsc-the-introduction/",
-        "https://www.ionos.com/digitalguide/websites/web-development/microservice-architecture/",
-        "https://www.redhat.com/en/topics/cloud-native-apps/what-is-containerization",
-        "https://aws.amazon.com/what-is/devsecops/e",
-        "https://www.agilealliance.org/agile101/",
-        "https://www.atlassian.com/microservices/microservices-architecture/configuration-management",
-        "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing",
-        "https://www.tripwire.com/state-of-security/what-is-configuration-drift",
-        "https://www.apm.org.uk/resources/what-is-project-management/what-is-change-control/",
-        "https://www.softwaretestinghelp.com/what-is-acceptance-testing/",
-        "https://www.betterworks.com/magazine/continuous-feedback/#:~:text=Continuous%20feedback%20is%20the%20practice,between%20managers%20and%20their%20employees.",
-        "https://www.atlassian.com/incident-management#types-of-incident-management-processes",
-        "https://www.sciencedirect.com/topics/computer-science/quality-analysis",
-        "https://www.microfocus.com/en-us/what-is/performance-testing#:~:text=Performance%20testing%20is%20a%20non,up%20under%20a%20given%20workload.",
-        "https://cucumber.io/docs/bdd/#:~:text=BDD%20is%20a%20way%20for,and%20the%20flow%20of%20value",
-        "https://www.redhat.com/en/topics/automation/what-is-provisioning#:~:text=Provisioning%20is%20the%20process%20of,%2C%20edge%20devices%2C%20and%20more.",
-        "https://octopus.com/blog/what-is-everything-as-code#:~:text=Everything%20as%20Code%20(EaC)%20is,seen%20benefits%20of%20EaC%20firsthand."
+        "https://www.ionos.com/digitalguide/websites/web-development/microservices/",
+        "https://www.redhat.com/en/topics/containers/what-is-containerization",
+        "https://www.veracode.com/security/devsecops",
+        "https://agilemanifesto.org/",
+        "https://www.atlassian.com/continuous-delivery/configuration-management",
+        "https://aws.amazon.com/what-is-cloud-computing/",
+        "https://en.wikipedia.org/wiki/Configuration_drift",
+        "https://www.atlassian.com/continuous-delivery/change-control",
+        "https://www.guru99.com/acceptance-testing-tutorial.html",
+        "https://www.sealights.io/blog/continuous-feedback-in-software-development/",
+        "https://en.wikipedia.org/wiki/Incident_management",
+        "https://www.tutorialspoint.com/software_testing/software_testing_quality_analysis.htm",
+        "https://smartbear.com/learn/performance-testing/what-is-performance-testing/",
+        "https://cucumber.io/docs/bdd/",
+        "https://www.gartner.com/en/information-technology/glossary/infrastructure-provisioning",
+        "https://www.devopsgroup.com/blog/everything-as-code-what-you-need-to-know/",
+        "https://en.wikipedia.org/wiki/Orchestration_(computing)",
+        "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-137.pdf",
+        "https://www.digitalocean.com/resources/immutable-infrastructure/",
+        "https://aws.amazon.com/serverless/",
+        "https://kubernetes.io/",
+        "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control",
+        "https://docs.microsoft.com/en-us/dotnet/architecture/dependency-injection/",
+        "https://www.jenkins.io/doc/book/pipeline/",
+        "https://aws.amazon.com/architecture/scalability/",
+        "https://martinfowler.com/bliki/BlueGreenDeployment.html"
     ];
 
     for (var i = 0; i < terms.length; i++) {
-        var row = document.createElement("tr");
+        var row = table.insertRow(i + 1);
+        var idCell = row.insertCell(0);
+        var termCell = row.insertCell(1);
+        var descriptionCell = row.insertCell(2);
+        var referencesCell = row.insertCell(3);
 
-        var cell1 = document.createElement("td");
-        var cell2 = document.createElement("td");
-        var cell3 = document.createElement("td");
-        var cell4 = document.createElement("td");
-
-        cell1.textContent = i + 1;
-        cell2.textContent = terms[i];
-        cell3.textContent = descriptions[i];
-        cell4.innerHTML = `<a href="${references[i]}" target="_blank" rel="noopener noreferrer">${references[i]}</a>`;
-
-        row.appendChild(cell1);
-        row.appendChild(cell2);
-        row.appendChild(cell3);
-        row.appendChild(cell4);
-
-        table.appendChild(row);
+        idCell.innerHTML = i + 1;
+        termCell.innerHTML = terms[i];
+        descriptionCell.innerHTML = descriptions[i];
+        referencesCell.innerHTML = '<a href="' + references[i] + '" target="_blank">Learn More</a>';
     }
 };
