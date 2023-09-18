@@ -31,7 +31,7 @@ window.onload = function() {
         "Dependency Injection",
         "CICD Pipeline (Continuous Integration and Continuous Delivery Pipeline)",
         "Scalability",
-        "Blue-Green Deployment"
+        "Blue-Green Deployment",
         "Continuous Deployment",
         "Control Plane (Kubernetes)",
         "Pod (Kubernetes)",
