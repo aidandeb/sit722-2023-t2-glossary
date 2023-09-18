@@ -32,6 +32,16 @@ window.onload = function() {
         "CICD Pipeline (Continuous Integration and Continuous Delivery Pipeline)",
         "Scalability",
         "Blue-Green Deployment"
+        "Continuous Deployment",
+        "Control Plane (Kubernetes)",
+        "Pod (Kubernetes)",
+        "Resource Group (Cloud)",
+        "Container Registry",
+        "Provider (Terraform)",
+        "Variables (Terraform)",
+        "Keys (Terraform)",
+        "Resource (Terraform)",
+        "HashiCorp Configuration Language (HCL)"
     ];
 
     var descriptions = [
@@ -65,6 +75,17 @@ window.onload = function() {
         "CICD Pipeline (Continuous Integration and Continuous Delivery Pipeline) is an automated workflow that facilitates the building, testing, and deployment of software changes. It ensures a reliable and efficient delivery process.",
         "Scalability is the ability of a system or application to handle an increasing amount of workload or users by adding resources, such as servers or containers, without compromising performance.",
         "Blue-Green Deployment is a deployment strategy where two identical environments (blue and green) are maintained. New versions of software are deployed to one environment while the other remains stable, enabling seamless rollbacks if issues arise."
+        "Continuous Deployment is the practice of automatically and frequently releasing code changes to production, ensuring a streamlined and automated deployment process.",
+        "Control Plane in Kubernetes is a set of components that manage the overall state of the cluster, including scheduling, orchestration, and communication among nodes.",
+        "A Pod in Kubernetes is the smallest deployable unit that can contain one or more containers, along with shared storage and network resources.",
+        "A Resource Group in a cloud environment is a logical container for managing related cloud resources, helping to organize and manage the resources effectively.",
+        "Container Registry is a service that stores and manages container images, allowing developers to store, share, and deploy containers.",
+        "Provider in Terraform refers to the cloud service provider (e.g., Azure, AWS) used to provision and manage cloud resources through Terraform scripts.",
+        "Variables in Terraform are used to define values that can be reused across Terraform configuration files, enhancing modularity and flexibility.",
+        "Keys in Terraform are used for authentication and communication with cloud providers. They often include secrets, tokens, or private keys.",
+        "Resource in Terraform represents a single infrastructure object or cloud resource, and Terraform uses resource blocks to define and manage these objects.",
+        "HashiCorp Configuration Language (HCL) is a configuration language used in Terraform to define and describe the desired infrastructure and resources."
+];
     ];
 
     var references = [
@@ -98,6 +119,17 @@ window.onload = function() {
         "https://www.jenkins.io/doc/book/pipeline/",
         "https://aws.amazon.com/architecture/scalability/",
         "https://martinfowler.com/bliki/BlueGreenDeployment.html"
+        "https://en.wikipedia.org/wiki/Continuous_deployment",
+        "https://kubernetes.io/docs/concepts/architecture/control-plane-node/",
+        "https://kubernetes.io/docs/concepts/workloads/pods/",
+        "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-are-resource-groups/",
+        "https://azure.microsoft.com/en-us/services/container-registry/",
+        "https://learn.hashicorp.com/tutorials/terraform/provider",
+        "https://learn.hashicorp.com/tutorials/terraform/variables",
+        "https://learn.hashicorp.com/tutorials/terraform/secrets",
+        "https://learn.hashicorp.com/tutorials/terraform/state",
+        "https://learn.hashicorp.com/tutorials/terraform/hcl"
+];
     ];
 
     for (var i = 0; i < terms.length; i++) {
