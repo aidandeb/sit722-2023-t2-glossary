@@ -128,7 +128,6 @@ window.onload = function() {
         "https://learn.hashicorp.com/tutorials/terraform/secrets",
         "https://learn.hashicorp.com/tutorials/terraform/state",
         "https://learn.hashicorp.com/tutorials/terraform/hcl"
-];
     ];
 
     for (var i = 0; i < terms.length; i++) {
