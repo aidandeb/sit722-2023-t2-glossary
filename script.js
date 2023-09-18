@@ -74,7 +74,7 @@ window.onload = function() {
         "Dependency Injection is a design pattern in which components receive their dependencies from an external source rather than creating them. It enhances code modularity and testability.",
         "CICD Pipeline (Continuous Integration and Continuous Delivery Pipeline) is an automated workflow that facilitates the building, testing, and deployment of software changes. It ensures a reliable and efficient delivery process.",
         "Scalability is the ability of a system or application to handle an increasing amount of workload or users by adding resources, such as servers or containers, without compromising performance.",
-        "Blue-Green Deployment is a deployment strategy where two identical environments (blue and green) are maintained. New versions of software are deployed to one environment while the other remains stable, enabling seamless rollbacks if issues arise."
+        "Blue-Green Deployment is a deployment strategy where two identical environments (blue and green) are maintained. New versions of software are deployed to one environment while the other remains stable, enabling seamless rollbacks if issues arise.",
         "Continuous Deployment is the practice of automatically and frequently releasing code changes to production, ensuring a streamlined and automated deployment process.",
         "Control Plane in Kubernetes is a set of components that manage the overall state of the cluster, including scheduling, orchestration, and communication among nodes.",
         "A Pod in Kubernetes is the smallest deployable unit that can contain one or more containers, along with shared storage and network resources.",
@@ -117,7 +117,7 @@ window.onload = function() {
         "https://docs.microsoft.com/en-us/dotnet/architecture/dependency-injection/",
         "https://www.jenkins.io/doc/book/pipeline/",
         "https://aws.amazon.com/architecture/scalability/",
-        "https://martinfowler.com/bliki/BlueGreenDeployment.html"
+        "https://martinfowler.com/bliki/BlueGreenDeployment.html",
         "https://en.wikipedia.org/wiki/Continuous_deployment",
         "https://kubernetes.io/docs/concepts/architecture/control-plane-node/",
         "https://kubernetes.io/docs/concepts/workloads/pods/",
@@ -143,3 +143,4 @@ window.onload = function() {
         referencesCell.innerHTML = references[i];
     }
 };
+
