@@ -85,7 +85,6 @@ window.onload = function() {
         "Keys in Terraform are used for authentication and communication with cloud providers. They often include secrets, tokens, or private keys.",
         "Resource in Terraform represents a single infrastructure object or cloud resource, and Terraform uses resource blocks to define and manage these objects.",
         "HashiCorp Configuration Language (HCL) is a configuration language used in Terraform to define and describe the desired infrastructure and resources."
-];
     ];
 
     var references = [
