@@ -57,7 +57,7 @@ window.onload = function() {
         "Everything-as-Code (EaC) is an approach that treats infrastructure, configurations, and processes as code, enabling automation and version control of all aspects of IT operations.",
         "Orchestration refers to the automated coordination and management of multiple tasks, services, or containers in a defined sequence to achieve a specific workflow or business process.",
         "Continuous Monitoring is the practice of real-time or periodic tracking and assessment of applications, systems, or networks to identify issues, security vulnerabilities, and performance bottlenecks.",
-        "Immutable Infrastructure is an approach where infrastructure components, such as servers or containers, are never modified after their initial deployment. Instead, updates are made by creating new, complete instances.",
+        "Immutable Infrastructure is an approach where infrastructure components, such as servers or containers, are never modified after their initial deployment. Updates are made by creating new, complete instances.",
         "Serverless Computing is a cloud computing model where developers can execute code without provisioning or managing servers. It abstracts server management tasks and allows developers to focus on code.",
         "Kubernetes, often abbreviated as K8s, is an open-source container orchestration platform for automating the deployment, scaling, and management of containerized applications.",
         "Version Control is the practice of tracking and managing changes to source code, documents, or any set of files. It helps developers collaborate, track history, and maintain code integrity.",
