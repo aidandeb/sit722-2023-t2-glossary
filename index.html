@@ -18,11 +18,17 @@
         width: 100px;
     }
     th.description-column, td.description-column {
-        width: 300px;
-    }
-    th.references-column, td.references-column {
-        width: 150px;
-    }
+            max-width: 300px; 
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis; 
+        }
+        th.references-column, td.references-column {
+            max-width: 150px; 
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
     </style>
 </head>
 <body>
