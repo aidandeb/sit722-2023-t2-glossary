@@ -148,16 +148,16 @@ window.onload = function() {
         "https://learn.hashicorp.com/tutorials/terraform/secrets",
         "https://learn.hashicorp.com/tutorials/terraform/state",
         "https://learn.hashicorp.com/tutorials/terraform/hcl",
-        "https://cloud.google.com/kubernetes-engine/docs/concepts/node-pools#:~:text=managing%20node%20pools.-,Overview,pool%27s%20name%20as%20its%20value.",
+        "https://cloud.google.com/kubernetes-engine/docs/concepts/node-pools",
         "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/",
         "https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/",
-        "https://www.nginx.com/resources/glossary/kubernetes-ingress-controller/#:~:text=An%20Ingress%20controller%20abstracts%20away,containers)%20running%20inside%20the%20platform",
-        "https://www.bmc.com/blogs/kubernetes-crd-custom-resource-definitions/#:~:text=Custom%20Resource%20allows%20you%20to%20extend%20Kubernetes%20capabilities%20by%20adding,capabilities%20beyond%20the%20default%20installation.",
-        "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/#:~:text=StatefulSet%20is%20the%20workload%20API,on%20an%20identical%20container%20spec.",
+        "https://www.nginx.com/resources/glossary/kubernetes-ingress-controller/",
+        "https://www.bmc.com/blogs/kubernetes-crd-custom-resource-definitions",
+        "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/",
         "https://docs.aws.amazon.com/eks/latest/userguide/autoscaling.html",
         "https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/",
-        "https://www.elastic.co/guide/en/cloud-on-k8s/master/k8s-pod-disruption-budget.html#:~:text=A%20Pod%20Disruption%20Budget%20(PDB,work%20on%20the%20Kubernetes%20nodes.",
-        "https://cloud.google.com/anthos-config-management/docs/concepts/kustomize#:~:text=Kustomize%20is%20a%20Kubernetes%20configuration,and%20Secrets%20from%20other%20representations."
+        "https://www.elastic.co/guide/en/cloud-on-k8s/master/k8s-pod-disruption-budget.html",
+        "https://cloud.google.com/anthos-config-management/docs/concepts/kustomize"
     ];
 
     for (var i = 0; i < terms.length; i++) {
