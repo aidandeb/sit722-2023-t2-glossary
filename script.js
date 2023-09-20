@@ -41,7 +41,17 @@ window.onload = function() {
         "Variables (Terraform)",
         "Keys (Terraform)",
         "Resource (Terraform)",
-        "HashiCorp Configuration Language (HCL)"
+        "HashiCorp Configuration Language (HCL)",
+        "Node Pool",
+        "Horizontal Pod Autoscaler (HPA)",
+        "Pod Affinity and Anti-Affinity",
+        "Ingress Controller",
+        "Custom Resource Definition (CRD)",
+        "StatefulSet",
+        "Cluster Autoscaler",
+        "Kubelet",
+        "PodDisruptionBudget (PDB)",
+        "Kustomize"
     ];
 
     var descriptions = [
@@ -84,7 +94,17 @@ window.onload = function() {
         "Variables in Terraform are used to define values that can be reused across Terraform configuration files, enhancing modularity and flexibility.",
         "Keys in Terraform are used for authentication and communication with cloud providers. They often include secrets, tokens, or private keys.",
         "Resource in Terraform represents a single infrastructure object or cloud resource, and Terraform uses resource blocks to define and manage these objects.",
-        "HashiCorp Configuration Language (HCL) is a configuration language used in Terraform to define and describe the desired infrastructure and resources."
+        "HashiCorp Configuration Language (HCL) is a configuration language used in Terraform to define and describe the desired infrastructure and resources.",
+         "Node Pool is a subset of nodes within a Kubernetes cluster that share the same configuration settings and underlying infrastructure. Node pools can be used to group nodes with similar characteristics, such as machine type or availability zone.",
+        "Horizontal Pod Autoscaler (HPA) is a Kubernetes feature that automatically adjusts the number of pod replicas in a deployment or replica set based on observed CPU utilization or other metrics. HPA ensures that applications can scale horizontally to handle varying workloads.",
+        "Pod Affinity and Anti-Affinity are Kubernetes mechanisms that define how pods should be scheduled in relation to other pods. Pod affinity specifies rules for locating pods together on the same node, while anti-affinity rules ensure that pods are spread across different nodes to enhance availability and resilience.",
+        "Ingress Controller is a component in Kubernetes that manages external access to services within the cluster. Ingress controllers are responsible for routing incoming traffic to the appropriate services based on hostnames, paths, or other rules defined in Ingress resources.",
+        "Custom Resource Definition (CRD) is a Kubernetes extension mechanism that enables users to define custom resources and their schemas. CRDs allow the creation of custom objects that can be managed and controlled like native Kubernetes resources.",
+        "StatefulSet is a Kubernetes resource type used to manage stateful applications. StatefulSets ensure that each pod in a set has a stable hostname and stable storage, making them suitable for applications that require unique network identities and data persistence.",
+        "Cluster Autoscaler is a Kubernetes feature that automatically adjusts the size of a cluster by adding or removing nodes based on resource demand. Cluster autoscaling helps optimize resource utilization and improve application performance.",
+        "Kubelet is an agent running on each node in a Kubernetes cluster responsible for managing containers and ensuring they run in the desired state. Kubelet communicates with the control plane to coordinate pod scheduling and monitoring.",
+        "PodDisruptionBudget (PDB) is a Kubernetes resource that defines constraints on how many pods of a specific deployment or replica set can be simultaneously disrupted during maintenance or scaling events. PDBs help prevent application downtime.",
+        "Kustomize is a tool for customising Kubernetes configurations without directly modifying YAML files. Kustomize simplifies the management of Kubernetes manifests by allowing users to overlay and customize configurations for different environments or use cases."
     ];
 
     var references = [
@@ -127,7 +147,17 @@ window.onload = function() {
         "https://learn.hashicorp.com/tutorials/terraform/variables",
         "https://learn.hashicorp.com/tutorials/terraform/secrets",
         "https://learn.hashicorp.com/tutorials/terraform/state",
-        "https://learn.hashicorp.com/tutorials/terraform/hcl"
+        "https://learn.hashicorp.com/tutorials/terraform/hcl",
+        "https://cloud.google.com/kubernetes-engine/docs/concepts/node-pools#:~:text=managing%20node%20pools.-,Overview,pool%27s%20name%20as%20its%20value.",
+        "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/",
+        "https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/",
+        "https://www.nginx.com/resources/glossary/kubernetes-ingress-controller/#:~:text=An%20Ingress%20controller%20abstracts%20away,containers)%20running%20inside%20the%20platform",
+        "https://www.bmc.com/blogs/kubernetes-crd-custom-resource-definitions/#:~:text=Custom%20Resource%20allows%20you%20to%20extend%20Kubernetes%20capabilities%20by%20adding,capabilities%20beyond%20the%20default%20installation.",
+        "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/#:~:text=StatefulSet%20is%20the%20workload%20API,on%20an%20identical%20container%20spec.",
+        "https://docs.aws.amazon.com/eks/latest/userguide/autoscaling.html",
+        "https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/",
+        "https://www.elastic.co/guide/en/cloud-on-k8s/master/k8s-pod-disruption-budget.html#:~:text=A%20Pod%20Disruption%20Budget%20(PDB,work%20on%20the%20Kubernetes%20nodes.",
+        "https://cloud.google.com/anthos-config-management/docs/concepts/kustomize#:~:text=Kustomize%20is%20a%20Kubernetes%20configuration,and%20Secrets%20from%20other%20representations."
     ];
 
     for (var i = 0; i < terms.length; i++) {
